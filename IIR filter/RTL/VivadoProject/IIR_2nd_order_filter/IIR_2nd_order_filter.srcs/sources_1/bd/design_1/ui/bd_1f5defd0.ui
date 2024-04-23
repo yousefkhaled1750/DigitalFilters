@@ -1,0 +1,22 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_in1_n_0 -pg 1 -lvl 0 -x -430 -y -330 -defaultsOSRD
+preplace port clk_in1_p_0 -pg 1 -lvl 0 -x -430 -y -300 -defaultsOSRD
+preplace port reset_n_0 -pg 1 -lvl 0 -x -430 -y -270 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 120 -y -120 -defaultsOSRD
+preplace inst IIR_filter_0 -pg 1 -lvl 3 -x 380 -y -270 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -100 -y -300 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 380 -y -110 -defaultsOSRD
+preplace netloc clk_in1_n_0_1 1 0 1 -400J -330n
+preplace netloc clk_in1_p_0_1 1 0 1 -410J -300n
+preplace netloc clk_wiz_0_clk_out1 1 1 2 10J -230 230
+preplace netloc blk_mem_gen_0_douta 1 1 2 10 -30 240
+preplace netloc IIR_filter_0_data_out 1 2 2 250 -350 510
+preplace netloc reset_n_0_1 1 0 3 -400J -220 NJ -220 220J
+levelinfo -pg 1 -430 -100 120 380 530
+pagesize -pg 1 -db -bbox -sgen -550 -410 530 120
+"
+}
+
